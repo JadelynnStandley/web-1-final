@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #390d43;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d6c8fd;
+  padding: 20px;
+  margin: 0px;
+  font-family: "lobster two", cursive;
+}
+.imgg {
+  width: 200px;
+  padding: 20px;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-in;
+}
+.personal-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.professional-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.school-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d6c8fd;
+  padding: 10px;
+  margin: 0px;
+  font-family: "quicksand", sans-serif;
+}
+#hero {
+  width: 1200px;
+  margin: 0px;
+  padding: 0px;
+  transition-delay: 3600s;
+}
+.bio {
+  color: #390d43;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-in;
+}
+.works {
+  color: #390d43;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-in;
+}
+.contact {
+  color: #390d43;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-in;
+}
+h1 {
+  font-family: "lobster two", cursive;
+  font-style: Bold;
+  font-size: 72px;
+  color: #d6c8fd;
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  font-family: "lobster two", cursive;
+  color: #d6c8fd;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-family: "quicksand", sans-serif;
+  color: #d6c8fd;
+  text-align: center;
+  margin-top: 5px;
+}
+h4 {
+  font-family: "quicksand", sans-serif;
+  color: #d6c8fd;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-bottom: 5px;
+}
+p {
+  font-family: "quicksand", sans-serif;
+  color: #d6c8fd;
+  text-align: left;
+  margin-top: 10px;
+  width: 600px;
+  margin: auto;
+}
+a:link {
+  color: #390d43;
+  text-decoration: none;
+}
+a:visited {
+  color: #7f428f;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-in;
+}
+img:hover {
+  transform: scale(1.25);
+}
